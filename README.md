@@ -1,14 +1,14 @@
 # UART Implementation in Verilog
 
 ## Overview
-UART (Universal Asynchronous Receiver Transmitter) communication 
-protocol implemented in Verilog. Simulated using Icarus Verilog 
-on EDA Playground.
+ UART (Universal Asynchronous Receiver Transmitter) communication 
+ protocol implemented in Verilog. Simulated using Icarus Verilog 
+ on EDA Playground.
 
 ## What is UART?
-UART is a serial communication protocol that transmits data
-one bit at a time. It uses a start bit, 8 data bits, and a
-stop bit to send each byte of data.
+ UART is a serial communication protocol that transmits data
+ one bit at a time. It uses a start bit, 8 data bits, and a
+ stop bit to send each byte of data.
 
 ## Modules
 - baud_rate_gen.v — generates a tick pulse every 5208 clock
@@ -20,9 +20,9 @@ stop bit to send each byte of data.
 - uart_top.v — connects TX and RX modules together for
   full loopback verification
 
-  ## FSM States
-Both TX and RX use a 4-state Finite State Machine:
-IDLE → START_BIT → DATA_BITS → STOP_BIT → IDLE
+## FSM States
+ Both TX and RX use a 4-state Finite State Machine:
+ IDLE → START_BIT → DATA_BITS → STOP_BIT → IDLE
 
 ## Tools Used
 - EDA Playground (Icarus Verilog 12.0)
@@ -35,13 +35,13 @@ IDLE → START_BIT → DATA_BITS → STOP_BIT → IDLE
 - Data format: 8 data bits, 1 start bit, 1 stop bit
 
 ## Test Results
-PASS - Sent: 55  Received: 55  (U)
-PASS - Sent: 41  Received: 41  (A)
-PASS - Sent: 52  Received: 52  (R)
-PASS - Sent: 54  Received: 54  (T)
+ PASS - Sent: 55  Received: 55  (U)
+ PASS - Sent: 41  Received: 41  (A)
+ PASS - Sent: 52  Received: 52  (R)
+ PASS - Sent: 54  Received: 54  (T)
 
-PASSED: 4 / 4
-PROJECT COMPLETE - ALL TESTS PASSED!
+ PASSED: 4 / 4
+ PROJECT COMPLETE - ALL TESTS PASSED!
 
 ## Status
 ✅ Project Complete
@@ -52,10 +52,10 @@ PROJECT COMPLETE - ALL TESTS PASSED!
 - Final testbench 4/4 passed
 
 ## Waveform
-![UART Waveform](waveform.png)
+ ![UART Waveform](waveform.png)
 
 ## Simulation Output
-![Simulation Output](outcome.png)
+ ![Simulation Output](outcome.png)
 
 ## How to Run
 1. Go to edaplayground.com
@@ -66,5 +66,5 @@ PROJECT COMPLETE - ALL TESTS PASSED!
 6. Click Run
 
 ## Author
-Bhoomi Varshney
-ECE Student — Chandigarh University
+ Bhoomi Varshney
+ ECE Student — Chandigarh University
