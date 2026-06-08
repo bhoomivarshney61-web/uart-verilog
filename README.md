@@ -55,7 +55,7 @@ PROJECT COMPLETE - ALL TESTS PASSED!
 ![UART Waveform](waveform.png)
 
 ## Simulation Output
-![Simulation Output](output.png)
+![Simulation Output](outcome.png)
 
 ## How to Run
 1. Go to edaplayground.com
