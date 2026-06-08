@@ -22,8 +22,14 @@ on EDA Playground.
 
 ## Status
 Week 1 complete — Baud rate generator and TX module working
+
 Week 2 complete — UART RX module working
-Week 3 — TX and RX integration (in progress)
+
+Week 3 complete — TX and RX integration working
+LOOPBACK TEST PASSED — Sent 41, Received 41
+
+Week 4 — Final testbench and documentation (in progress)
+
 ## Author
 Bhoomi Varshney
 ECE Student — Chandigarh University
